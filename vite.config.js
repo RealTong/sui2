@@ -12,7 +12,7 @@ try {
 } catch (e) {
   if (e.code === 'ENOENT' && !process.env.DATA_FILENAME) {
     console.log('data.json missing, fall back to data.example.json')
-    data = await import('./data.example.json')
+    data = await import('./data.json')
   } else {
     throw e;
   }
