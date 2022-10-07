@@ -1,0 +1,115 @@
+{
+  "apps": [
+    {
+      "name": "Dashboard",
+      "items": [
+        {
+          "name": "OpenWRT",
+          "url": "http://10.0.0.1/cgi-bin/luci/",
+          "icon": "rss"
+        },
+        {
+          "name": "Clash-Local",
+          "url": "http://localhost:9090",
+          "icon": "rss"
+        },
+        {
+          "name": "Umami",
+          "url": "https://umami.realtong.cn/dashboard",
+          "icon": "chart-areaspline"
+        },
+        {
+          "name": "CloudFlare",
+          "url": "https://dash.cloudflare.com/776435a80e5d02802aac1cba468c1df0",
+          "icon": "chart-areaspline"
+        },
+        {
+          "name": "Vercel",
+          "url": "https://vercel.com/dashboard",
+          "icon": "sitemap-outline"
+        },
+        {
+          "name": "Bitwarden",
+          "url": "http://10.0.0.4:9001/",
+          "icon": "comment-text-multiple-outline"
+        },
+        {
+          "name": "UptimeKuma",
+          "url": "http://10.0.0.4:9003/dashboard",
+          "icon": "timer-edit-outline"
+        },
+        {
+          "name": "Wakatime",
+          "url": "https://wakatime.com/@RealTong",
+          "icon": "timer-settings-outline"
+        }
+      ]
+    }
+  ],
+  "bookmarks": [
+    {
+      "category": "Infra",
+      "links": [
+        {
+          "name": "Cloudflare",
+          "url": "https://dash.cloudflare.com/776435a80e5d02802aac1cba468c1df0"
+        },
+        {
+          "name": "Vercel",
+          "url": "https://vercel.com/dashboard"
+        },
+        {
+          "name": "Supabase",
+          "url": "https://app.supabase.com"
+        }
+      ]
+    },
+    {
+      "category": "Surfing",
+      "links": [
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com"
+        },
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com"
+        },
+        {
+          "name": "Bilibili",
+          "url": "https://www.bilibili.com"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com"
+        }
+      ]
+    },
+    {
+      "category": "Code",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pseudoyu"
+        }
+      ]
+    },
+    {
+      "category": "Tool",
+      "links": [
+        {
+          "name": "Excalidraw",
+          "url": "https://excalidraw.com"
+        },
+        {
+          "name": "Pika",
+          "url": "https://pika.style/open-graph-generator"
+        },
+        {
+          "name": "TinyWow",
+          "url": "https://tinywow.com"
+        }
+      ]
+    }
+  ]
+}
