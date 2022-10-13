@@ -73,6 +73,10 @@ function updateKeyword(key) {
 
 function handleKeyPress(e) {
   var key = e.keyCode || e.which;
+  if (e.ctrlKey || e.metaKey) {
+    // ignore key combination
+    return
+  }
   if (key == 9 || key == 13) { // Tab to switch and Enter to open
       // e.preventDefault();
       // e.stopPropagation();
@@ -119,7 +123,7 @@ function handleMatchedItems(items) {
 }
 
 function highlightText(el, match) {
-  console.log('match', match, el)
+  // console.log('match', match, el)
   // get the longest part
   match.indices.sort((a, b) => (b[1] - b[0]) - (a[1] - a[0]))
   const pos = match.indices[0]
