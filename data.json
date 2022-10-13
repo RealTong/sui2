@@ -10,7 +10,7 @@
         },
         {
           "name": "Clash-Local",
-          "url": "http://localhost:9090",
+          "url": "http://localhost:9090/ui",
           "icon": "rss"
         },
         {
@@ -30,7 +30,7 @@
         },
         {
           "name": "Bitwarden",
-          "url": "http://10.0.0.4:9001/",
+          "url": "https://10.0.0.4:9001/",
           "icon": "comment-text-multiple-outline"
         },
         {
@@ -47,23 +47,6 @@
     }
   ],
   "bookmarks": [
-    {
-      "category": "Infra",
-      "links": [
-        {
-          "name": "Cloudflare",
-          "url": "https://dash.cloudflare.com/776435a80e5d02802aac1cba468c1df0"
-        },
-        {
-          "name": "Vercel",
-          "url": "https://vercel.com/dashboard"
-        },
-        {
-          "name": "Supabase",
-          "url": "https://app.supabase.com"
-        }
-      ]
-    },
     {
       "category": "Surfing",
       "links": [
@@ -82,6 +65,14 @@
         {
           "name": "Netflix",
           "url": "https://www.netflix.com"
+        },
+        {
+          "name": "V2EX",
+          "url": "https://www.v2ex.com/"
+        },
+        {
+          "name": "HackerNews",
+          "url": "https://news.ycombinator.com/"
         }
       ]
     },
@@ -90,13 +81,33 @@
       "links": [
         {
           "name": "GitHub",
-          "url": "https://github.com/pseudoyu"
+          "url": "https://github.com/realtong"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/wulanren"
+        },
+        {
+          "name": "Cloudflare",
+          "url": "https://dash.cloudflare.com/776435a80e5d02802aac1cba468c1df0"
+        },
+        {
+          "name": "Vercel",
+          "url": "https://vercel.com/dashboard"
+        },
+        {
+          "name": "Supabase",
+          "url": "https://app.supabase.com"
         }
       ]
     },
     {
       "category": "Tool",
       "links": [
+        {
+          "name": "TsinghuaMirror",
+          "url": "https://mirrors.tuna.tsinghua.edu.cn/help/"
+        },
         {
           "name": "Excalidraw",
           "url": "https://excalidraw.com"
@@ -108,6 +119,19 @@
         {
           "name": "TinyWow",
           "url": "https://tinywow.com"
+        }
+      ]
+    },
+    {
+      "category": "News",
+      "links": [
+        {
+          "name": "DecoHack",
+          "url": "https://decohack.zhubai.love/"
+        },
+        {
+          "name": "Dex",
+          "url": "https://dex.zhubai.love/"
         }
       ]
     }
