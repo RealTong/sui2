@@ -79,8 +79,8 @@ export default defineConfig({
     handlebars({
       context: data,
       helpers: {
-        iconify: (name) => {
-          const svg = getIconSVG(name)
+        iconify: (name,set) => {
+          const svg = getIconSVG(name,set)
           if (!svg) return `no icon ${name}`
           return svg
         },

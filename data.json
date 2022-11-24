@@ -6,42 +6,74 @@
         {
           "name": "OpenWRT",
           "url": "http://10.0.0.1/cgi-bin/luci/",
-          "icon": "rss"
+          "set": "simple-icons",
+          "icon": "openwrt"
         },
         {
           "name": "Clash-Local",
           "url": "http://localhost:9090/ui",
-          "icon": "rss"
+          "set": "arcticons",
+          "icon": "clash"
         },
         {
           "name": "Umami",
           "url": "https://umami.realtong.cn/dashboard",
+          "set": "mdi",
           "icon": "chart-areaspline"
+        },
+        {
+          "name": "Grafana",
+          "url": "https://grafana.realtong.cn/",
+          "set": "logos",
+          "icon": "grafana"
         },
         {
           "name": "CloudFlare",
           "url": "https://dash.cloudflare.com/776435a80e5d02802aac1cba468c1df0",
-          "icon": "chart-areaspline"
+          "set": "logos",
+          "icon": "cloudflare"
         },
         {
           "name": "Vercel",
           "url": "https://vercel.com/dashboard",
-          "icon": "sitemap-outline"
+          "set": "logos",
+          "icon": "vercel-icon"
         },
         {
           "name": "Bitwarden",
           "url": "https://10.0.0.4:9001/",
-          "icon": "comment-text-multiple-outline"
+          "set": "simple-icons",
+          "icon": "bitwarden"
         },
         {
           "name": "UptimeKuma",
           "url": "http://10.0.0.4:9003/dashboard",
-          "icon": "timer-edit-outline"
+          "set": "simple-icons",
+          "icon": "uptimekuma"
         },
         {
           "name": "Wakatime",
           "url": "https://wakatime.com/@RealTong",
-          "icon": "timer-settings-outline"
+          "set": "logos",
+          "icon": "wakatime"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/RealTong",
+          "set": "logos",
+          "icon": "github-icon"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/RealTong_run/likes",
+          "set": "logos",
+          "icon": "twitter"
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.so/RealTong-Home-Page-0f1e1e1e1e1e4e4e4e4e4e4e4e4e4e4e",
+          "set": "radix-icons",
+          "icon": "notion-logo"
         }
       ]
     }
