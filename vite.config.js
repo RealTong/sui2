@@ -79,16 +79,16 @@ export default defineConfig({
     handlebars({
       context: data,
       helpers: {
-        iconify: (name,set) => {
-          const svg = getIconSVG(name,set)
+        iconify: (name,set,color) => {
+          const svg = getIconSVG(name,set,color)
           if (!svg) return `no icon ${name}`
           return svg
         },
         domain: (url) => {
           var o = new URL(url);
-          if (o.port) {
-            return `${o.hostname}:${o.port}`
-          }
+          // if (o.port) {
+          //   return `${o.hostname}:${o.port}`
+          // }
           return o.hostname
         }
       }

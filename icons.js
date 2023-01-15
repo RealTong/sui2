@@ -7,7 +7,7 @@ const svgAttributesBase = {
   'xmlns:xlink': 'http://www.w3.org/1999/xlink',
 }
 
-export const getIconSVG = function(name,set) {
+export const getIconSVG = function(name,set,color) {
   const iconPath = resolve(__dirname,  `node_modules/@iconify/json//json/${set}.json`)
   const iconsData = JSON.parse(readFileSync(iconPath))
 
@@ -20,6 +20,7 @@ export const getIconSVG = function(name,set) {
   const svgAttributes = {
     ...svgAttributesBase,
     ...renderData.attributes,
+    color: color?color:"",
   };
 
   const svgAttributesStr = Object.keys(svgAttributes)
@@ -27,6 +28,7 @@ export const getIconSVG = function(name,set) {
       (attr) => `${attr}="${svgAttributes[attr]}"`
     )
     .join(' ');
+  console.log(svgAttributesStr)
 
   // Generate SVG
   const svg = `<svg ${svgAttributesStr}>${replaceIDs(renderData.body)}</svg>`;

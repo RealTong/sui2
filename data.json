@@ -1,37 +1,63 @@
 {
   "apps": [
     {
-      "name": "Dashboard",
+      "name": "SelfHost",
       "items": [
         {
           "name": "OpenWRT",
-          "url": "http://10.0.0.1/cgi-bin/luci/",
+          "url": "http://openwrt.lab/cgi-bin/luci/",
           "set": "simple-icons",
           "icon": "openwrt"
         },
         {
-          "name": "Clash-Local",
-          "url": "http://localhost:9090/ui",
+          "name": "Clash",
+          "url": "http://clash.lab:9090/ui/yacd",
           "set": "arcticons",
           "icon": "clash"
         },
         {
           "name": "Umami",
-          "url": "https://umami.realtong.cn/dashboard",
+          "url": "https://umami.lab/dashboard",
           "set": "mdi",
           "icon": "chart-areaspline"
         },
         {
           "name": "Grafana",
-          "url": "https://grafana.realtong.cn/",
+          "url": "https://grafana.lab/",
           "set": "logos",
           "icon": "grafana"
         },
         {
-          "name": "CloudFlare",
-          "url": "https://dash.cloudflare.com/776435a80e5d02802aac1cba468c1df0",
-          "set": "logos",
-          "icon": "cloudflare"
+          "name": "Bitwarden",
+          "url": "https://password.lab:9001/",
+          "set": "simple-icons",
+          "icon": "bitwarden",
+          "color": "#165ad5"
+        },
+        {
+          "name": "UptimeKuma",
+          "url": "http://uptime.lab/dashboard",
+          "set": "simple-icons",
+          "icon": "uptimekuma",
+          "color": "#5BDC8A"
+        },
+        {
+          "name": "AdguardHome",
+          "url": "http://dns.lab:3000/#",
+          "set": "simple-icons",
+          "icon": "adguard",
+          "color": "#67b279"
+        }
+      ]
+    },
+    {
+      "name": "Site",
+      "items": [
+        {
+          "name": "Notion",
+          "url": "https://www.notion.so/RealTong-Home-Page-0f1e1e1e1e1e4e4e4e4e4e4e4e4e4e4e",
+          "set": "radix-icons",
+          "icon": "notion-logo"
         },
         {
           "name": "Vercel",
@@ -40,40 +66,41 @@
           "icon": "vercel-icon"
         },
         {
-          "name": "Bitwarden",
-          "url": "https://10.0.0.4:9001/",
-          "set": "simple-icons",
-          "icon": "bitwarden"
-        },
-        {
-          "name": "UptimeKuma",
-          "url": "http://10.0.0.4:9003/dashboard",
-          "set": "simple-icons",
-          "icon": "uptimekuma"
-        },
-        {
           "name": "Wakatime",
           "url": "https://wakatime.com/@RealTong",
           "set": "logos",
           "icon": "wakatime"
         },
         {
-          "name": "Github",
-          "url": "https://github.com/RealTong",
+          "name": "V2EX",
+          "url": "https://www.v2ex.com/",
+          "set": "simple-icons",
+          "icon": "v2ex",
+          "color": "#000000"
+        },
+        {
+          "name": "CloudFlare",
+          "url": "https://dash.cloudflare.com/776435a80e5d02802aac1cba468c1df0",
+          "set": "logos",
+          "icon": "cloudflare"
+        },
+        {
+          "name": "Github Star",
+          "url": "https://github.com/RealTong?tab=stars",
           "set": "logos",
           "icon": "github-icon"
         },
         {
-          "name": "Twitter",
+          "name": "Twitter Like",
           "url": "https://twitter.com/RealTong_run/likes",
           "set": "logos",
           "icon": "twitter"
         },
         {
-          "name": "Notion",
-          "url": "https://www.notion.so/RealTong-Home-Page-0f1e1e1e1e1e4e4e4e4e4e4e4e4e4e4e",
-          "set": "radix-icons",
-          "icon": "notion-logo"
+          "name": "Youtube",
+          "url": "https://youtube.com",
+          "set": "logos",
+          "icon": "youtube-icon"
         }
       ]
     }
@@ -83,53 +110,8 @@
       "category": "Surfing",
       "links": [
         {
-          "name": "Twitter",
-          "url": "https://twitter.com"
-        },
-        {
-          "name": "YouTube",
-          "url": "https://www.youtube.com"
-        },
-        {
-          "name": "Bilibili",
-          "url": "https://www.bilibili.com"
-        },
-        {
-          "name": "Netflix",
-          "url": "https://www.netflix.com"
-        },
-        {
-          "name": "V2EX",
-          "url": "https://www.v2ex.com/"
-        },
-        {
           "name": "HackerNews",
           "url": "https://news.ycombinator.com/"
-        }
-      ]
-    },
-    {
-      "category": "Code",
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/realtong"
-        },
-        {
-          "name": "Gitee",
-          "url": "https://gitee.com/wulanren"
-        },
-        {
-          "name": "Cloudflare",
-          "url": "https://dash.cloudflare.com/776435a80e5d02802aac1cba468c1df0"
-        },
-        {
-          "name": "Vercel",
-          "url": "https://vercel.com/dashboard"
-        },
-        {
-          "name": "Supabase",
-          "url": "https://app.supabase.com"
         }
       ]
     },
@@ -151,19 +133,6 @@
         {
           "name": "TinyWow",
           "url": "https://tinywow.com"
-        }
-      ]
-    },
-    {
-      "category": "News",
-      "links": [
-        {
-          "name": "DecoHack",
-          "url": "https://decohack.zhubai.love/"
-        },
-        {
-          "name": "Dex",
-          "url": "https://dex.zhubai.love/"
         }
       ]
     }
