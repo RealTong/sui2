@@ -21,6 +21,9 @@ body {
   -webkit-font-smoothing: antialiased;
   width: 100vw;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 *,
 *:before,
@@ -210,10 +213,6 @@ a:hover {
     line-height: 2;
   }
 }
-
-/* MODAL */
-
-@import "modal";
 
 /* THEMING */
 
