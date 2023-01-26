@@ -5,45 +5,45 @@
       "items": [
         {
           "name": "OpenWRT",
-          "url": "http://openwrt.lab/cgi-bin/luci/",
+          "url": "http://openwrt.lab.in",
           "set": "simple-icons",
           "icon": "openwrt"
         },
         {
           "name": "Clash",
-          "url": "http://clash.lab:9090/ui/yacd",
+          "url": "http://clash.lab.in",
           "set": "arcticons",
           "icon": "clash"
         },
         {
           "name": "Umami",
-          "url": "https://umami.lab/dashboard",
+          "url": "https://umami.lab.in",
           "set": "mdi",
           "icon": "chart-areaspline"
         },
         {
           "name": "Grafana",
-          "url": "https://grafana.lab/",
+          "url": "https://grafana.lab.in",
           "set": "logos",
           "icon": "grafana"
         },
         {
           "name": "Bitwarden",
-          "url": "https://password.lab:9001/",
+          "url": "https://password.lab.in",
           "set": "simple-icons",
           "icon": "bitwarden",
           "color": "#165ad5"
         },
         {
           "name": "UptimeKuma",
-          "url": "http://uptime.lab/dashboard",
+          "url": "http://uptime.lab.in",
           "set": "simple-icons",
           "icon": "uptimekuma",
           "color": "#5BDC8A"
         },
         {
           "name": "AdguardHome",
-          "url": "http://dns.lab:3000/#",
+          "url": "http://dns.lab.in",
           "set": "simple-icons",
           "icon": "adguard",
           "color": "#67b279"
